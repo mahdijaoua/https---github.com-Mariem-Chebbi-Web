@@ -55,13 +55,10 @@
                             IN+
                         </div>
                     </li>
-                    <li class="active">
+                    <li class="#">
                         <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li class="active"><a href="index.html">Dashboard general</a></li>
-                            <li><a href="dashboard_clients.html">Dashboard client</a></li>
-                            <li><a href="dashboard_personnels.html">Dashboard personnels</a></li>
-                            <li><a href="dashboard_produits.html">Dashboard produits</a></li>
+                           
                             
                         </ul>
                     </li>
@@ -84,16 +81,21 @@
                     <li>
                         <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">Blogs</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
-                            <li><a href="Catgorie1.html">Catgorie 1 </a></li>
-                            <li><a href="Catgorie2.html">Catgorie 2</a></li>
-                            <li><a href="Catgorie3.html">Catgorie 3</a></li>
-                            <li><a href="Catgorie4.html">Catgorie 4</a></li>
+                            <li><a href="{{path('app_addBlog') }}">Blog </a></li>
+                            <li><a href="{{path('app_addCategorie') }}">Catgorie</a></li>
+                           
 
                         </ul>
                     </li>
 
                     <li>
-                        <a href="produits.html"><i class="fa fa-shopping-cart"></i> <span class="nav-label">Produits</span><span class="label label-warning pull-right"></span></a>
+                        <a href="#"><i class="fa fa-shopping-cart"></i> <span class="nav-label">Produits/Reservations</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="{{path('app_addProduct') }}">Produits </a></li>
+                            <li><a href="{{path('app_addReservation') }}">Reservations</a></li>
+                            
+
+                        </ul>
                         
                     </li>
                    

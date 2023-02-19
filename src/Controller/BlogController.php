@@ -85,7 +85,7 @@ class BlogController extends AbstractController
 
     
 
-      #[Route('/afficheBlog', name: 'afficheB')]
+      #[Route('/afficheBlog', name: 'afficheBlog')]
 
       public function showP(BlogRepository $repository)
       {
